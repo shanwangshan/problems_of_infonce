@@ -21,7 +21,6 @@ piano_aug2_emb_ex = [0,1]
 rain_aug2_emb_ex = [1,0]
 
 
-
 CEL = torch.nn.CrossEntropyLoss()
 
 def info_nce_loss(features):
@@ -47,6 +46,7 @@ def info_nce_loss(features):
     loss = CEL(logits,labels)
 
     return logits, labels,loss
+
 
 
 features1 = torch.tensor([piano_aug1_emb,rain_aug1_emb,piano_aug2_emb,rain_aug2_emb])
