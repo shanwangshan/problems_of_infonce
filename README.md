@@ -9,6 +9,4 @@ In this git repo, we provide a simple example in two dimensional space to illust
 
 As shown in the Fig below ![illustration](/Figure_1.png), there are two different distributions (a) and (b) of piano and rain feature representations. If *piano aug2* is switched with *rain aug2*, the contrastive loss still remains the same. However, it is apparent that distribution (a) is more semantically meaningful for the downstream tasks because it groups samples from the same class closer to each other.
 
-To solve the problem mentioned above, we propose to use angular contrastive loss (ACL) where the details are seen from [supervised_ACL](https://github.com/shanwangshan/supervised_ACL) and [self-supervised_ACL](https://github.com/shanwangshan/Self_supervised_ACL).
-
-For details, please see our paper *Self-supervised learning of audio representations using angular contrastive loss*.
+To solve the problem mentioned above, we propose to use angular contrastive loss (ACL) where the details are seen from [supervised_ACL](https://github.com/shanwangshan/supervised_ACL) and [self-supervised_ACL](https://github.com/shanwangshan/Self_supervised_ACL). For more details, please see our paper *"Self-supervised learning of audio representations using angular contrastive loss"*.
