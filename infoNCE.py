@@ -16,7 +16,7 @@ piano_aug2_emb = [1,0]
 rain_aug1_emb = [1,1]
 rain_aug2_emb = [0,1]
 
-# exchange the dog_barking aug2 with the water_dropping aug2
+# exchange the piano aug2 with the rain aug2
 piano_aug2_emb_ex = [0,1]
 rain_aug2_emb_ex = [1,0]
 
