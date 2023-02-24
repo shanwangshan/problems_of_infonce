@@ -9,7 +9,7 @@
 
 In this git repo, we provide a simple example in two dimensional space to illustrate this. To run this code, run the command below,
 
-`` python infonce.py ``
+`` python infoNCE.py ``
 
 ### Results analysis
 
